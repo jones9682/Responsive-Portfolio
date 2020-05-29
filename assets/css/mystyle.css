@@ -1,0 +1,16 @@
+body {
+  background: #ccc;
+}
+
+#Header a:hover {
+  color: #fff;
+}
+#bg-img {
+  background: url("../images/bg-img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+#About {
+  margin-top: -200px;
+}
