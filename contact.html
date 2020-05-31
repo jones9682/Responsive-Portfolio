@@ -32,7 +32,7 @@
     ></script>
     <title>My Portfolio Website</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
     <!--Navbar-->
     <header id="Header">
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
@@ -48,7 +48,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a href="#" class="navbar-brand"><h3>Contact</h3></a>
+          <a href="#" class="navbar-brand"><h3>Robert Jones Jr.</h3></a>
           <div
             class="collapse navbar-collapse"
             id="navbarToggleExternalContent"
@@ -68,19 +68,52 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div id="main-container" class="container">
+        <div class="row">
+          <div class="col">
+            <section class="main-section">
+              <h1>Contact</h1>
+              <hr />
+              <form id="contact-form">
+                <li>
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="John Smith"
+                    required="required"
+                  />
+                </li>
+                <li>
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required="required"
+                  />
+                </li>
+                <li>
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required="required"
+                  ></textarea>
+                </li>
+                <input class="btn btn-primary" type="submit" value="Submit" />
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer class="navbar fixed-bottom navbar-light bg-dark">
       <a class="navbar-brand" href="#"></a>
       <p class="footer-text">&copy; Copyright 2020 Robert Jones Jr.</p>
-      <a href="https://github.com/jones9682?tab=repositories"
-        ><img
-          class="social"
-          src="assets/images/github.png"
-          height="40px"
-          width="40px"
-          alt="GitHub"
-        />
-      </a>
     </footer>
   </body>
 </html>

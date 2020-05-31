@@ -1,6 +1,27 @@
 body {
   background: #ccc;
 }
+/* general */
+h2,
+h3 {
+  font-size: 22px;
+}
+/* main */
+
+#main-container {
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: whitesmoke;
+  border: 1px solid #ddd;
+}
 
 #Header a:hover {
   color: #fff;
@@ -17,7 +38,88 @@ body {
   margin-top: -200px;
 }
 
+.auth-image {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 254px;
+}
+
+/* sidebar */
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: whitesmoke;
+  border: 1px solid #ddd;
+}
+
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+#contact-form ul {
+  margin-top: 40px;
+}
+
+#contact-form li {
+  margin-bottom: 30px;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type="submit"] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
 .footer-text {
+  padding: 5px 0;
+  clear: both;
   color: white;
   font-size: 15px;
   text-align: center;
