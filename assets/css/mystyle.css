@@ -19,15 +19,21 @@ h3 {
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: whitesmoke;
-  border: 1px solid #ddd;
+  background: rgb(184, 191, 194);
+  border: 3px solid #ddd;
 }
 
 #Header a:hover {
   color: #fff;
 }
 
-#bg-img {
+/* main about me */
+
+#About-me {
+  margin-top: -350px;
+}
+
+#bg-img-about-me {
   background: url("../images/bg-img.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -42,6 +48,31 @@ h3 {
   margin-right: 254px;
 }
 
+/* main portfolio */
+
+#Portfolio {
+  margin-top: -350px;
+}
+
+#bg-img-portfolio {
+  background: url("../images/code_programming.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+/* main contact */
+
+#Contact {
+  margin-top: -350px;
+}
+
+#bg-img-contact {
+  background: url("../images/code_abstract_patterns.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
 /* sidebar */
 
 .sidebar {
@@ -50,8 +81,8 @@ h3 {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: whitesmoke;
-  border: 1px solid #ddd;
+  background: rgb(142, 178, 202);
+  border: 3px solid #ddd;
 }
 
 .sidebar h2 {
@@ -75,6 +106,51 @@ h3 {
 .social:last-child {
   margin-right: 0;
 }
+
+/* portfolio */
+
+.projects {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.projects:nth-child(even) {
+  margin-right: 40px;
+}
+
+.projects img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.projects h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: gray;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/* contact */
+
 #contact-form ul {
   margin-top: 40px;
 }
@@ -113,9 +189,19 @@ input[type="submit"] {
   border: 0 none;
 }
 
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: gray;
+  color: white;
+}
+
 .footer-text {
   clear: both;
   font-size: 15px;
-  text-align: center;
+  padding: 5px 0;
   margin-top: 5px;
+  color: white;
 }
