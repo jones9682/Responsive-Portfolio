@@ -34,10 +34,6 @@ h3 {
   min-height: 500px;
 }
 
-#About {
-  margin-top: -200px;
-}
-
 .auth-image {
   float: left;
   width: 100%;
@@ -118,9 +114,7 @@ input[type="submit"] {
 }
 
 .footer-text {
-  padding: 5px 0;
   clear: both;
-  color: white;
   font-size: 15px;
   text-align: center;
   margin-top: 5px;
