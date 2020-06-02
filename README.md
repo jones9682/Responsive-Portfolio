@@ -47,4 +47,4 @@ Robert's Responsive Portfolio
 
 You can view a live version of the website here. [My Responsive Portfolio](https://jones9682.github.io/week-2-hw/ "A Bootstrap powered portfolio")
 
-Bootstrap Documentation - [Bootstrap Docs](https://getbootstrap.com/docs/3.3/getting-started/ "Bootstrap Documentation")
+Bootstrap Documentation - [Bootstrap Docs](https://getbootstrap.com/ "Bootstrap Documentation")
