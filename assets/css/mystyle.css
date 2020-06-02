@@ -42,10 +42,10 @@ h3 {
 
 .auth-image {
   float: left;
-  width: 100%;
+  width: 60%;
   height: auto;
   margin-top: 10px;
-  margin-right: 254px;
+  margin-right: 25px;
 }
 
 /* main portfolio */
@@ -139,16 +139,6 @@ h3 {
   text-align: center;
   background: gray;
   border-bottom: 0;
-}
-
-/* profile pic */
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
 }
 
 /* contact */
