@@ -2,6 +2,14 @@
 
 Robert's Responsive Portfolio
 
+# Mobile screen capture
+
+![mobile screen capture](assets/images/mobile_screen_capture.png)
+
+# Screen Capture
+
+![screen capture](assets/images/screen_capture.png)
+
 ## Objectives
 
 1. Create a responsive portfolio template using bootstrap's grid system.
@@ -45,6 +53,6 @@ Robert's Responsive Portfolio
 
 ## Links
 
-You can view a live version of the website here. [My Responsive Portfolio](https://jones9682.github.io/week-2-hw/ "A Bootstrap powered portfolio")
+You can view a live version of the website here. [My Responsive Portfolio](https://jones9682.github.io/Responsive-Portfolio/ "A Bootstrap powered portfolio")
 
 Bootstrap Documentation - [Bootstrap Docs](https://getbootstrap.com/ "Bootstrap Documentation")
