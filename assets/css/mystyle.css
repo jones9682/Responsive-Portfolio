@@ -81,11 +81,12 @@ h3 {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: rgb(142, 178, 202);
+  background: rgba(142, 178, 202, 0.308);
   border: 3px solid #ddd;
 }
 
 .sidebar h2 {
+  color: white;
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
