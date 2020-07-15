@@ -4,7 +4,7 @@ Robert's Responsive Portfolio
 
 # Mobile screen capture
 
-![mobile screen capture](assets/images/mobile_screen_capture.jpg)
+![mobile screen capture](assets/images/mobile_capture.jpg)
 
 # Screen Capture
 
