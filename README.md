@@ -4,11 +4,11 @@ Robert's Responsive Portfolio
 
 # Mobile screen capture
 
-![mobile screen capture](assets/images/mobile_screen_capture.png)
+![mobile screen capture](assets/images/mobile_screen_capture.jpg)
 
 # Screen Capture
 
-![screen capture](assets/images/screen_capture.png)
+![screen capture](assets/images/screen_capture.jpg)
 
 ## Objectives
 
