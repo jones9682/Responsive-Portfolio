@@ -127,6 +127,10 @@ h3 {
   opacity: 0.8;
 }
 
+.projects h3:hover {
+  color: #00ff2a;
+}
+
 .projects h3 {
   position: absolute;
   left: 5px;
