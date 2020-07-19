@@ -1,5 +1,5 @@
 body {
-  background: #ccc;
+  background: rgb(98, 122, 133);
 }
 /* general */
 h2,
@@ -19,7 +19,7 @@ h3 {
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: rgb(184, 191, 194);
+  background: rgb(130, 148, 156);
   border: 3px solid #ddd;
 }
 
@@ -81,12 +81,12 @@ h3 {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: rgba(142, 178, 202, 0.308);
+  background: rgba(142, 178, 202, 0.788);
   border: 3px solid #ddd;
 }
 
 .sidebar h2 {
-  color: white;
+  color: black;
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -193,7 +193,7 @@ input[type="submit"] {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: gray;
+  background-color: #343a40;
   color: white;
 }
 
