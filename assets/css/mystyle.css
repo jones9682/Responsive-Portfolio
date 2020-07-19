@@ -127,8 +127,10 @@ h3 {
   opacity: 0.8;
 }
 
-.projects h3:hover {
-  color: #00ff2a;
+.projects h3:hover::before {
+  display: block;
+  color: rgb(0, 255, 21);
+  content: "'Click' to GitHub Repository";
 }
 
 .projects h3 {
