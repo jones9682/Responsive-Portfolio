@@ -1,6 +1,4 @@
-# week-2-hw
-
-Robert's Responsive Portfolio
+# Portfolio
 
 # Mobile screen capture
 
